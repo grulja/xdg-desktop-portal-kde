@@ -1,20 +1,2 @@
-# xdg-desktop-portal-kde
-
-A backend implementation for [xdg-desktop-portal](http://github.com/flatpak/xdg-desktop-portal)
-that is using Qt/KDE.
-
-## Building xdg-desktop-portal-gtk
-
-### Dependencies:
- - xdg-desktop-portal (runtime)
- - flatpak (runtime)
- - Qt 5 (build)
- - KDE Frameworks (build)
-
-### Build instructions:
-```
-$ mkdir build && cd build
-$ cmake .. [your_options]
-$ make -j5
-$ make install
-```
+Project has been moved to KDE git:
+https://github.com/KDE/xdg-desktop-portal-kde
